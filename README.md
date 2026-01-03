@@ -2,70 +2,87 @@
 
 ## Project info
 
-## How can I edit this code?
+🌦️ Cloud Companion – Weather App
 
-There are several ways of editing your application.
+A modern weather application that fetches real-time weather data from a public API, helping users check the weather for any city. Built to demonstrate API integration, async logic, and responsive design.
 
-**Use Lovable**
+🚀 Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+🔎 Search for weather by city name
 
-Changes made via Lovable will be committed automatically to this repo.
+🌡️ Display temperature in Celsius and Fahrenheit
 
-**Use your preferred IDE**
+☁️ Show weather condition and location
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+⏳ Loading states while fetching data
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+❌ Error handling for invalid city names
 
-Follow these steps:
+📱 Fully responsive design for mobile and desktop
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+🎨 Clean UI with weather-based icons and smooth transitions
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+🧠 What I Learned
 
-# Step 3: Install the necessary dependencies.
-npm i
+Fetching and working with public APIs
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Using async/await for asynchronous requests
 
-**Edit a file directly in GitHub**
+Handling loading and error states
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Updating the UI dynamically based on API response
 
-**Use GitHub Codespaces**
+Responsive design and user experience best practices
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+🛠️ Built With
 
-## What technologies are used for this project?
+Lovable.dev
 
-This project is built with:
+JavaScript
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+HTML & CSS
 
-## How can I deploy this project?
+📸 Screenshots
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Add screenshots or GIFs here showing:
 
-## Can I connect a custom domain to my Lovable project?
+City search
 
-Yes, you can!
+Weather display
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Error state handling
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+🔗 Live Demo
+
+👉 Add your deployed app link here
+
+📂 How It Works
+
+User enters a city name in the search input.
+
+App fetches weather data from a public API using async/await.
+
+Weather details (temperature, condition, location) are displayed.
+
+If the city is invalid, an error message appears.
+
+Celsius/Fahrenheit toggle allows users to switch units.
+
+🌱 Future Improvements
+
+Dynamic backgrounds for different weather conditions
+
+Hourly and weekly forecast views
+
+Location-based automatic weather detection
+
+Integration with backend for user preferences
+
+👨‍💻 Author
+
+Moses Orji
+Vibe Coder | Building modern web apps with AI-assisted tools
+
+LinkedIn: https://ng.linkedin.com/in/moses-orji-5553a8a9
+
+GitHub: https://github.com/modesignedit
